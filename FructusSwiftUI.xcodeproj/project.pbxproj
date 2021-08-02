@@ -17,6 +17,10 @@
 		8091439126B7E5720022DAC5 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439026B7E5720022DAC5 /* FruitData.swift */; };
 		8091439326B7E5930022DAC5 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439226B7E5930022DAC5 /* FruitModel.swift */; };
 		8091439526B7EC560022DAC5 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439426B7EC560022DAC5 /* FruitRowView.swift */; };
+		8091439726B8084D0022DAC5 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439626B8084C0022DAC5 /* FruitDetailView.swift */; };
+		8091439926B80DDC0022DAC5 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439826B80DDB0022DAC5 /* FruitHeaderView.swift */; };
+		8091439B26B814DA0022DAC5 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439A26B814D90022DAC5 /* SourceLinkView.swift */; };
+		8091439D26B8186C0022DAC5 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091439C26B8186C0022DAC5 /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		8091439026B7E5720022DAC5 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		8091439226B7E5930022DAC5 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		8091439426B7EC560022DAC5 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		8091439626B8084C0022DAC5 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		8091439826B80DDB0022DAC5 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		8091439A26B814D90022DAC5 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		8091439C26B8186C0022DAC5 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 				8091437826B7E2070022DAC5 /* FructusSwiftUIApp.swift */,
 				8091437A26B7E2070022DAC5 /* ContentView.swift */,
 				8091438726B7E4220022DAC5 /* OnboardingView.swift */,
+				8091439626B8084C0022DAC5 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -97,6 +106,9 @@
 				8091438C26B7E5330022DAC5 /* FruitCardView.swift */,
 				8091438E26B7E5520022DAC5 /* StartButtonView.swift */,
 				8091439426B7EC560022DAC5 /* FruitRowView.swift */,
+				8091439826B80DDB0022DAC5 /* FruitHeaderView.swift */,
+				8091439A26B814D90022DAC5 /* SourceLinkView.swift */,
+				8091439C26B8186C0022DAC5 /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8091438826B7E4220022DAC5 /* OnboardingView.swift in Sources */,
+				8091439B26B814DA0022DAC5 /* SourceLinkView.swift in Sources */,
 				8091439326B7E5930022DAC5 /* FruitModel.swift in Sources */,
 				8091439526B7EC560022DAC5 /* FruitRowView.swift in Sources */,
+				8091439D26B8186C0022DAC5 /* FruitNutrientsView.swift in Sources */,
 				8091438D26B7E5330022DAC5 /* FruitCardView.swift in Sources */,
+				8091439726B8084D0022DAC5 /* FruitDetailView.swift in Sources */,
 				8091439126B7E5720022DAC5 /* FruitData.swift in Sources */,
+				8091439926B80DDC0022DAC5 /* FruitHeaderView.swift in Sources */,
 				8091437B26B7E2070022DAC5 /* ContentView.swift in Sources */,
 				8091438F26B7E5520022DAC5 /* StartButtonView.swift in Sources */,
 				8091437926B7E2070022DAC5 /* FructusSwiftUIApp.swift in Sources */,
